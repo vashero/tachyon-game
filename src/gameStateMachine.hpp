@@ -9,7 +9,7 @@ public:
 	GameStateMachine(){}
 
 	/** The destructor */
-	~GameStateMachine(){}
+	virtual ~GameStateMachine(){}
 
 	/** Request that we move to a different state
 	 *  @param state The state that we would like to move to

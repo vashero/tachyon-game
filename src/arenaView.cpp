@@ -2,12 +2,12 @@
 
 ArenaView::ArenaView(RenderWindow *win, const String &shipCfgFilename,
 		const String &mgrName): mShipViewMgr(shipCfgFilename)
-		{
+{
 	mCamPos = ARENA_VIEW_DEF_CAM_POS;
 	mTargetPos = ARENA_VIEW_DEF_TARGET_POS;
 	mWin = win;
 	this->create_scene(mgrName);
-		}
+}
 
 ArenaView::~ArenaView()
 {
@@ -27,7 +27,7 @@ void ArenaView::create_scene(const String &mgrName)
 	mSceneMgr->setShadowTechnique(SHADOWTYPE_TEXTURE_ADDITIVE);
 
 	// Set the number of mipmaps
-	//TextureManager::getSingleton().setDefaultNumMipmaps(0);
+	TextureManager::getSingleton().setDefaultNumMipmaps(0);
 
 	// Create a default skybox
 	mSceneMgr->setSkyBox(true, ARENA_VIEW_SKYBOX_NAME);
