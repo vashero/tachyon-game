@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="tachyon" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="tachyon" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-D_DEBUG" />
+				</Compiler>
+				<Linker>
+					<Add library="OgreMain_d" />
+					<Add library="OIS_d" />
+					<Add library="OgreGUIRenderer_d" />
+					<Add library="CEGUIBase_d" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="tachyon" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DNDEBUG" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="OgreMain" />
+					<Add library="OIS" />
+					<Add library="OgreGUIRenderer" />
+					<Add library="CEGUIBase" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-mthreads" />
+			<Add option="-fmessage-length=0" />
+			<Add option="-fexceptions" />
+			<Add option="-fident" />
+			<Add option="-DWIN32" />
+			<Add option="-D_WINDOWS" />
+			<Add directory="$(OGRE_HOME)\include" />
+			<Add directory="$(OGRE_HOME)\samples\include" />
+			<Add directory="$(OGRE_HOME)\samples\refapp\include" />
+			<Add directory="$(OGRE_HOME)\include\CEGUI" />
+		</Compiler>
+		<Linker>
+			<Add option="-Wl,--enable-runtime-pseudo-reloc" />
+			<Add option="-Wl,--enable-auto-image-base" />
+			<Add option="-Wl,--add-stdcall-alias" />
+			<Add directory="$(OGRE_HOME)\lib" />
+			<Add directory="$(OGRE_HOME)\bin\Release" />
+			<Add directory="$(OGRE_HOME)\bin\Debug" />
+		</Linker>
+		<Unit filename="src\arenaView.cpp" />
+		<Unit filename="src\arenaView.hpp" />
+		<Unit filename="src\core.cpp" />
+		<Unit filename="src\core.hpp" />
+		<Unit filename="src\coreInputManager.cpp" />
+		<Unit filename="src\coreInputManager.hpp" />
+		<Unit filename="src\coreStateMachine.cpp" />
+		<Unit filename="src\coreStateMachine.hpp" />
+		<Unit filename="src\frameRouter.hpp" />
+		<Unit filename="src\gameException.hpp" />
+		<Unit filename="src\gameManager.hpp" />
+		<Unit filename="src\gameMenu.cpp" />
+		<Unit filename="src\gameMenu.hpp" />
+		<Unit filename="src\inputRouter.hpp" />
+		<Unit filename="src\main.cpp" />
+		<Unit filename="src\mainMenu.cpp" />
+		<Unit filename="src\mainMenu.hpp" />
+		<Unit filename="src\shipView.cpp" />
+		<Unit filename="src\shipView.hpp" />
+		<Unit filename="src\shipViewManager.cpp" />
+		<Unit filename="src\shipViewManager.hpp" />
+		<Unit filename="src\stateListener.hpp" />
+		<Unit filename="src\stateRouter.hpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
