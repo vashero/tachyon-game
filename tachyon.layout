@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="src\arenaView.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="1655" topLine="18" />
+	</File>
+	<File name="src\arenaView.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="1022" topLine="0" />
+	</File>
+	<File name="src\core.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3262" topLine="0" />
+	</File>
+	<File name="src\core.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1706" topLine="36" />
+	</File>
+	<File name="src\coreInputManager.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="313" topLine="15" />
+	</File>
+	<File name="src\coreInputManager.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="65" topLine="0" />
+	</File>
+	<File name="src\coreStateMachine.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="591" topLine="6" />
+	</File>
+	<File name="src\frameRouter.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="568" topLine="13" />
+	</File>
+	<File name="src\gameException.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="750" topLine="13" />
+	</File>
+	<File name="src\gameMenu.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="1221" topLine="20" />
+	</File>
+	<File name="src\gameMenu.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="394" topLine="0" />
+	</File>
+	<File name="src\inputRouter.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="18" />
+	</File>
+	<File name="src\main.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="447" topLine="0" />
+	</File>
+	<File name="src\mainMenu.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="1551" topLine="32" />
+	</File>
+	<File name="src\mainMenu.hpp" open="0" top="0" tabpos="4">
+		<Cursor position="1445" topLine="34" />
+	</File>
+	<File name="src\shipView.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="1309" topLine="8" />
+	</File>
+	<File name="src\shipView.hpp" open="0" top="0" tabpos="4">
+		<Cursor position="1188" topLine="9" />
+	</File>
+	<File name="src\shipViewManager.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="59" topLine="0" />
+	</File>
+	<File name="src\stateListener.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="414" topLine="0" />
+	</File>
+	<File name="src\stateRouter.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="595" topLine="94" />
+	</File>
+</CodeBlocks_layout_file>

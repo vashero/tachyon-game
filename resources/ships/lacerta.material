@@ -1,0 +1,15 @@
+material Material.002/SOLID/TEX/LacertaStrikeCraft_UV.GIF
+{
+	technique
+	{
+		pass
+		{
+			diffuse 0.800000 0.800000 0.800000
+			specular 0.528871 0.528871 0.528871 78.750000
+			texture_unit
+			{
+				texture LacertaStrikeCraft_UV.GIF
+			}
+		}
+	}
+}
