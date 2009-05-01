@@ -1,3 +1,10 @@
+/*==============================================================
+ * Copyright (c) 2009 Blake Fisher.  All Rights Reserved.
+ *
+ * This software is released under the BSD License
+ * <http://www.opensource.org/licenses/bsd-license.php>
+ *==============================================================
+ */
 #include "core.hpp"
 #include "gameException.hpp"
 
@@ -13,13 +20,13 @@
     const String CONFIG_FILE = "config/plugins_lin.cfg";
     int main (int argc, char *argv[]) {
 #endif
-		try {
-			Core core(CONFIG_FILE, "config/Ogre.cfg", "ogre.log",
-					"config/resources.cfg", true);
-			core.run("config/ship.cfg");
-		} catch (GameException &e) {
-			cout << "GameException: " << e.what() << endl;
-		}
+    try {
+        Core core(CONFIG_FILE, "config/Ogre.cfg", "ogre.log",
+                "config/resources.cfg", true);
+        core.run("config/ship.cfg");
+    } catch (GameException &e) {
+        cout << "GameException: " << e.what() << endl;
+    }
 
-		return 0;
-	}
+    return 0;
+}

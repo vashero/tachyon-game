@@ -1,10 +1,14 @@
+/*==============================================================
+ * Copyright (c) 2009 Blake Fisher.  All Rights Reserved.
+ *
+ * This software is released under the BSD License
+ * <http://www.opensource.org/licenses/bsd-license.php>
+ *==============================================================
+ */
 #include "core.hpp"
 #include "gameException.hpp"
 
 #include "mainMenu.hpp"
-
-// changed file
-// another change
 
 Core::Core(const String &pluginFilename, const String &configFilename,
 		const String &logFilename, const String &resourceFilename,

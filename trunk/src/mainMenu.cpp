@@ -1,3 +1,10 @@
+/*==============================================================
+ * Copyright (c) 2009 Blake Fisher.  All Rights Reserved.
+ *
+ * This software is released under the BSD License
+ * <http://www.opensource.org/licenses/bsd-license.php>
+ *==============================================================
+ */
 #include "mainMenu.hpp"
 
 #include "elements/CEGUIPushButton.h"
@@ -223,7 +230,7 @@ bool MainMenu::create_scene(const String &shipConfigFilename)
 	mArenaView->rotate_camera(Radian(0), Radian(Degree(45)));
 
 	// Add a ship to the arena view
-	this->switch_model(SHIP_VIEW_TEST);
+	this->switch_model(SHIP_VIEW_CRUISER);
 
 	return true;
 }
