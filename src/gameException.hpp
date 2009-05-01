@@ -1,3 +1,12 @@
+/*==============================================================
+ * Copyright (c) 2009 Blake Fisher.  All Rights Reserved.
+ *
+ * This software is released under the BSD License
+ * <http://www.opensource.org/licenses/bsd-license.php>
+ *==============================================================
+ */
+#pragma once
+
 #include <exception>
 using namespace std;
 

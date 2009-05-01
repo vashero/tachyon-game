@@ -1,3 +1,10 @@
+/*==============================================================
+ * Copyright (c) 2009 Blake Fisher.  All Rights Reserved.
+ *
+ * This software is released under the BSD License
+ * <http://www.opensource.org/licenses/bsd-license.php>
+ *==============================================================
+ */
 #pragma once
 
 #include "Ogre.h"
@@ -9,12 +16,11 @@ class ShipViewManager;
 typedef enum {
 	SHIP_VIEW_CRUISER,
 	SHIP_VIEW_SUPERIORITY,
-	SHIP_VIEW_TEST,
 	SHIP_VIEW_NONE /**< Used to count the number of ship views; must always be
                      the final enum */
 } ShipViewType;
 
-const String SHIP_VIEW_TYPE_NAMES[] = {"Cruiser", "Superiority", "Ogre"};
+const String SHIP_VIEW_TYPE_NAMES[] = {"Cruiser", "Superiority"};
 
 /**
    Handles the appearance of a ship.
