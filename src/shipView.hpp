@@ -7,7 +7,7 @@
  */
 #pragma once
 
-#include "Ogre.h"
+#include <Ogre.h>
 using namespace Ogre;
 
 class ShipViewManager;
